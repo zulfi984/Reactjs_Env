@@ -24,7 +24,7 @@ const Header = () => {
           ></FormControl>
         </Navbar.Text>
         <Nav>
-          <Dropdown alignRight>
+          <Dropdown>
             <Dropdown.Toggle variant="success" style={{ margin: 10 }}>
               <FaShoppingCart color="white" fontSize="20px"></FaShoppingCart>
               <Badge bg="inherit">{10}</Badge>
